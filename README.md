@@ -24,16 +24,4 @@ int i, j, k;
 
 		System.out.println();
 
-		//2.2
-		System.out.println("2.2");
-		System.out.println("Enter the radius and length of a cylinder: ");
-		//Scanner input2 = new Scanner(System.in);
-		double radius = input.nextDouble();
-		double length = input.nextDouble();
-
-		final double PI = 3.14159;
-		double area = radius * radius * PI;
-		double volume = area * length;
-
-		System.out.println("The area is " + area + ".");
-		System.out.println("The volume is " + volume + ".");
+		
