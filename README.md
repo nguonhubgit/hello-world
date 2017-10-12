@@ -24,4 +24,21 @@ int i, j, k;
 
 		System.out.println();
 
+
+//2.3
+		System.out.println("2.3");
+		System.out.println("Enter a value for feet: ");
+		double feet = input.nextDouble();
+		double feetToMeter = feet * 0.305; 
+		System.out.println(feet + " feet is " + feetToMeter + " meters.");
+
+		System.out.println();
+
+		//Converting meters to feet
+		System.out.println("Enter a value for meter: ");
+		double meter = input.nextDouble();
+		double meterToFeet = meter * 1.0 / 0.305;
+		System.out.println(meter + " meter is " + meterToFeet + " feets.");
+
+		System.out.println();
 		
